@@ -64,10 +64,10 @@ function App() {
           <li>Lead development life cycle</li>
           <li>Level up coding skills</li>
         </ul>
-        <div className="flex justify-between w-full">
+        <div className="flex justify-between w-full mt-6">
         <img className="w-1/4" src="/site1.png"  />
         <img className="w-1/4" src="/site2.png" />
-        <img className="w-1/4" src="/site4.webp"  />
+        <img style={{mixBlendMode: "multiply"}} className="w-1/4" src="/site5.png"  />
         <img style={{mixBlendMode: "multiply"}} className="w-1/4" src="/site3.png" />
         </div>
       </div>
